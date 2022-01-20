@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+
+  </head>
+
+    <!--El link linkea el archivo html con el archivo css-->
+    <!--Style es para estilo-->
+    <!--Script es para cargar un archivo JavaScript, puede ir en head o al final de body-->
+
+  <body>
+  <style type="text/css">
+    section {
+      width: 100%;
+    }
+    a {
+      text-decoration:none;
+      color:violet;
+      font-size: 20px;
+    }
+    a:hover {
+      color:green;
+    }
+    article {
+      display: inline-block;
+      padding: 20px;
+    } 
+  </style>
+  <header>
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <p>Párrafo</p>
+    <p>Párrafo 2</p>
+    <p>Lorem ipsum dolor <br> br es un salto de línea <br> sit, amet consectetur adipisicing elit. Itaque, omnis.</p>
+   
+    <!-- esto se usa para comentar y que no se vea en la página web -->
+  
+    <!--se usa ctrl + } para comentar un texto automáticamente sin tener que escribir manualmente -->
+
+    <ul>
+        <li>Lista con puntos</li>
+        <li>Hola 2</li>
+        <li>Hola 3</li>
+        <li>Hola 4</li>
+        <li>Hola 5</li>
+    </ul>
+  
+    <ol>
+        <li>Lista enumerada y ordenada</li>
+        <li>Hola 2</li>
+        <li>Hola 3</li>
+        <li>Hola 4</li>
+        <li>Hola 5</li>
+    </ol>
+
+     <!--Atributos: class, id, name
+     Alt shift flecha duplica la línea, flecha arriba o abajo
+     li * 5 y se hacen 5 lineas juntas, excribis el texto, apretas tab y se baja automaticamente para que escribas y así
+     ol>li*5 te hace todo automáticamente-->
+
+     <ul class="lista">
+         <li>Ítem 1</li>
+         <li>Ítem 2</li>
+     </ul>
+
+     <nav>
+       <a href="https://puzzleargentina.teachable.com/courses/1386542/lectures/32193324" target="_blank"> Vamos a ir al siguiente link!
+      </a>
+
+      <a href="https://puzzleargentina.teachable.com/courses/1386542/lectures/32193324" target="_blank">
+      <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/QNRAM7YSTJE5PHCXWU4FGQWV54.jpg" alt="Esta es la imagen de la nueva película" title="acá está la imagen">
+      </a>
+ 
+      <a href="https://puzzleargentina.teachable.com/courses/1386542/lectures/32193324" target="_blank">
+      <img src="assets/LogoHP.png" alt="Este es el logo de Harry Potter">
+      </a>
+
+      <a href="./Páginas/página2.html" target="_blank" alt= "Aquí está la página nro 2"> Vamos a la página 2</a>
+     </nav>
+    
+     <section>
+       <h2>Buscá tu película</h2>
+       <article>
+         <h3>Por año</h3>
+         <label for="">
+           <input type="radio" name="Peliyear" id=""> 2018
+         </label>
+         <label for="">
+          <input type="radio" name="Peliyear" id=""> 2019
+        </label>
+        <label for="">
+          <input type="radio" name="Peliyear" id=""> 2020
+        </label>
+        <label for="">
+          <input type="radio" name="Peliyear" id=""> 2021
+        </label>
+        <label for="">
+          <input type="radio" name="Peliyear" id=""> 2022
+        </label>
+       </article>
+       <article>
+         <h3>Por nombre</h3>
+         <label for="">
+           <input type="text" name="" id="" placeholder="Búsqueda...">
+         </label>
+       </article>
+       <article>
+        <h3>Por género</h3>
+        <select name="" id="Género">
+          <option value="">...</option>
+          <option value="1">Acción</option>
+          <option value="2">Drama</option>
+          <option value="3">Comedia</option>
+          <option value="4">Terror</option>
+          <option value="5">Ciencia Ficción</option>
+        </select>
+      </article>
+     </section>
+     <section>
+       <h2>Agregadas recientemente</h2>
+       <article>
+         <h3>Harry Potter 1</h3>
+         <a href="">
+           <img src="./assets/Imagenes/HarryPotter1.jpg" alt="">
+         </a>
+         <ul>
+          <li>Fecha de estreno: 29 de noviembre de 2001</li>
+          <li>Director: Chris Columbus</li>
+         </ul>
+       </article>
+       <article>
+         <h3>Harry Potter 2</h3>
+         <a href="">
+           <img src="./assets/Imagenes/HarryPotter2.jpg" alt="">
+         </a>
+         <ul>
+          <li>Fecha de estreno: 28 de noviembre de 2002</li>
+          <li>Director: Chris Columbus</li>
+         </ul>
+       </article>
+       <article>
+        <h3>Harry Potter 3</h3>
+        <a href="">
+          <img src="./assets/Imagenes/HarryPotter3.png" alt="">
+        </a>
+        <ul>
+         <li>Fecha de estreno: 3 de junio de 2004</li>
+         <li>Director:Alfonso Cuarón</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Harry Potter 4</h3>
+        <a href="">
+          <img src="./assets/Imagenes/HarryPotter4.jpg" alt="">
+        </a>
+        <ul>
+         <li>Fecha de estreno: 24 de noviembre de 2005</li>
+         <li>Director: Mike Newell</li>
+        </ul>
+      </article>
+     </section>
+
+    <iframe width="692" height="389" src="https://www.youtube.com/embed/NMYRd7DvjrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- cuando le pones un mismo nombre a los radios, eso hace que solo puedas seleccionar uno en la página web, es decir, si le ecciono 2018 y después selecciono 2019, el 2018 se va a des-seleccionar, si le pongo distintos names se van a poder seleccionar todos, PEERO, el input radio se usa pra seleccionar uno solo, el input checkbook es el que se usa para seleccionar varios-->
+    <!-- section y article se usa cuando hay mucho texto, como periodicos, blogs o demás-->
+    <!-- nav se usa para indicar que dadentro hay enlaces-->
+    <!-- si se quiere poner un video de youtube se copia el código de inserción en el video y se pega directamente, si se quiere poner un video desde la compu se usa la etiqueta video como la imagen-->
+    <!--Para src, se arranca sin / (barra) o con ./ (punto y barra)-->
+    <!-- alt se usa para que aparezca algo cuando no se puede ver la imagen-->
+    <!-- title se usa para pasar el mouse o flechita por arriba de la imagen y que se lea lo que escribimos-->
+    <!--Escribir en 'alt' qué imagen es o de qué se trata o el nombre, sirve para cuando se rompa la imagen (no funcione), saber qué debería haber en esa imagen. También, nos ayuda a darle accesibilidad en la web, ya que en caso de personas no videntes que usan lectores de pantalla, no ven el contenido, pero tienen una herramienta que los ayuda a leer la página semánticamente, entonces, cuando llegan a la imagen, se lee lo que se encuentra dentro de 'alt'-->
+    <!--Cuando pasamos la fecha del mouse por arriba de la imagen, debajo de toda la web va a aparecer el link al que te va a redirigir-->
+    <!--ruta relattiva: es externa, se pega el link completo con https://, en ruta relativa se usa algo de la pc, como un archivo de visual code (/opagina.html) o un archivo de la compu (/acá va la carpeta donde está el archivo que queremos poner)-->
+    <!--target blank hace que el link se abra en uan pestaña nueva-->
+    <!--ctrl + r es para actualizar o refrescar la página, ctrl + s es para guardar acá-->
+
+    <table>
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+      </tr>
+      <tr>
+        <td>9hs</td>
+        <td>8hs</td>
+        <td>7hs</td>
+      </tr>
+    </table>
+  
+    <!--tr es table row: es la fila del atril, fila de celdas en una tabla-->
+    <!--th es table head: la primera fila de la tabla son los encabezados-->
+    <!--td es table data: lo que va debajo de los encabezados-->
+    <!--ctlr + enter hace que bajes directamente al parrafo de abajo-->
+    <!---->
+
+    <form action="">
+      <label for="nombre">Coloque su nombre:</label>
+        <div>
+          <input 
+            type="text" 
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe aquí">
+        </div>
+        <div>
+          <input 
+            type="button" 
+            value="Esto es un botón que se usa para mostrar algo"
+            placeholder="Clickear aquí">
+        </div>
+        <div>
+          <input 
+            type="submit" 
+            value="Esto es un submit que se usa para enviar algo"
+            placeholder="Clickear aquí">
+        </div>
+        <div>
+          <input 
+            type="checkbox" 
+            name="ckeck" 
+            id="cuadrado"
+            placeholder="Escribe">
+            <input 
+            type="checkbox" 
+            name="ckeck" 
+            id="cuadrado"
+            placeholder="Escribe">
+            <input 
+            type="checkbox" 
+            name="ckeck" 
+            id="cuadrado"
+            placeholder="Escribe">
+        </div>
+        <div>
+          <input 
+            type="radio" 
+            name="radio" 
+            id="círculo"
+            placeholder="Escribe">
+        </div>
+        <div>
+          <input
+            type="email" 
+            name="email" 
+            id="mail"
+            placeholder="Coloque su email aquí">
+        </div>
+        <div>
+          <input 
+            type="number" 
+            name="número" 
+            id="number"
+            placeholder="Escribe aquí el número">
+        </div>
+        <div>
+          <input 
+            type="password" 
+            name="contraseña" 
+            id="contraseña"
+            placeholder="Escribe aquí tu contraseña" 
+            required= "campo requerido">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <input 
+            type="datetime" 
+            name="fecha" 
+            id="fecha de tiempo"
+            placeholder="Escribe aquí datetime">
+        </div>
+
+        <!-- div es para poner algo abajo de otra cosa -->
+    </form>
+  </header>  
+  </body>
+
+</html>
+
